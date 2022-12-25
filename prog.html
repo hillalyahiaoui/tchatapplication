@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tchat-App-hillal</title>
+    <link rel="stylesheet" href="./prog.css">
+</head>
+<body>
+    <input type="password" id="mdp" placeholder="Entrer le MDP">
+<div class="app">
+<div class="heder">
+    <div class="nombre">
+        <p id="nombre"></p>
+        <img id="profil" src="./hil.jpg" alt="" width="60px" height="60px">
+    </div>
+    <h2>Tchat Application  &copy;Hillal-Y-22</h2>
+    <div class="compteur">
+    <img id="image"  >
+    <p id="compteur"></p>
+</div>
+</div>
+
+<label for="ami">discussion </label>
+<select id="ami">
+    <option value="madame">Madame</option>
+    <option value="mr">Mr</option>
+    <option value="mark">-</option>
+</select><br>
+<div class="inpute">
+<div class="affichage">
+    <p id="nom"></p>
+    
+        <textarea  id="textarea" cols="15" rows="4" readonly >
+            
+        </textarea>
+  
+    <p id="heure"></p>
+</div>
+    
+<div class="groupe">
+    <div class="inputfile">
+
+    <input type="file" value="img" id="fil" accept="image/*" onchange="lire()" 
+    placeholder="yah">
+</div>
+<input type="text"  id="text" placeholder="Ecrir un nouveau msg...">
+<button id="btn"><img src="icon.png" id="icon"></button>
+</div>
+
+</div>
+<p id="jour"></p>
+</div>
+    <script src="./prog.js"></script>
+</body>
+</html>
